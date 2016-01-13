@@ -1,0 +1,37 @@
+// bower:scss
+@import "bower_components/susy/sass/_susy.scss";
+@import "bower_components/normalize-scss/_normalize.scss";
+@import "bower_components/include-media/dist/_include-media.scss";
+// endbower
+
+@import "bower_components/slick-carousel/slick/slick.scss";
+
+@import "variables";
+@import "mixins";
+@import "typo";
+@import "components/creator";
+@import "components/creator/creator-product";
+
+html,body {
+  min-height: 100vh;
+  -webkit-overflow-scrolling: touch;
+}
+
+body:before {
+  content: "phone";
+  display: none;
+  @include media("≥desktop") {
+    content: "desktop";
+  }
+}
+
+
+// RESETS
+
+p {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}

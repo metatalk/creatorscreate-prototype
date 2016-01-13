@@ -1,0 +1,22 @@
+$breakpoints: (
+  phone: 320px,
+  tablet: 768px,
+  desktop: 1024px
+);
+
+$susy: (
+  columns: 12,
+  container: 1200px,
+  gutters: 0,
+  global-box-sizing: border-box,
+  debug: (image: hide)
+);
+
+$gallery : (
+  columns: 3,
+  gutters: 1/4
+);
+
+
+$toolbar-width: 80px;
+$design-footer-height: 50px;

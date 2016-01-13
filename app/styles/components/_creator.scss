@@ -1,0 +1,119 @@
+.creator {
+  height: 100vh;
+  overflow: hidden;
+}
+
+.creator-design {
+  position: relative;
+  @include media("≥desktop") {
+    @include span(7 of 12);
+    height: 100vh;
+  }
+}
+
+  .creator-product {
+    background: red;
+    height: 100vh;
+    padding-left: $toolbar-width;
+  }
+
+  .creator-toolbar {
+    background: yellow;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    height: 100%;
+    width: $toolbar-width;
+  }
+
+.creator-actions {
+  background: blue;
+  @include media("≥desktop") {
+    @include span(5 of 12 last);
+    height: 100vh;
+  }
+}
+
+.creator-actions__header {
+  background: orange;
+  @include media("≥desktop") {
+    height: 50px;
+  }
+}
+
+.creator-design-elements {
+  overflow: hidden;
+  @include media("≥desktop") {
+    height: calc(100vh - #{$design-footer-height});
+    overflow: scroll;
+  }
+}
+
+  .creator-design-elements__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    height: 100%;
+    @include layout($gallery);
+    @include media("≥desktop") {
+      @extend %clearfix;
+      padding: 20px 20px $design-footer-height 20px;
+      height: auto;
+    }
+  }
+
+  .creator-design-elements__element {
+    float: left;
+    background: red;
+    position: relative;
+    width: 100px;
+
+    @include media("≥desktop") {
+      @include gallery(2 of 6);
+      margin-bottom: gutter(6);
+    }
+  }
+
+  .draggable {
+    position: relative;
+    top: 0;
+    left: 0;
+    img {
+      user-select: none;
+      display: block;
+      width: 200px;
+    }
+  }
+
+  .drag-element-clone {
+    position: absolute;
+    background: #000;
+    img {
+      width: 100%;
+    }
+  }
+
+  .resize-handle {
+    position: absolute;
+    background: yellow;
+    width: 15px;
+    height: 15px;
+    top: 10px;
+    left: 10px;
+  }
+
+.creator-actions__footer {
+  background: purple;
+  button {
+    margin: 10px;
+  }
+  @include media("≥desktop") {
+    height: $design-footer-height;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    z-index: 100;
+  }
+}
+
