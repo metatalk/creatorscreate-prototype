@@ -9,12 +9,14 @@
 @import "variables";
 @import "mixins";
 @import "typo";
+@import "components/nav";
 @import "components/creator";
 @import "components/creator/creator-product";
 
 html,body {
   min-height: 100vh;
   -webkit-overflow-scrolling: touch;
+  overflow-x: hidden;
 }
 
 body:before {

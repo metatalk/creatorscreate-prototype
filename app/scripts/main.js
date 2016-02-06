@@ -48,6 +48,9 @@ $(document).ready(function() {
 
   interact('.draggable').draggable({
     'manualStart' : true,
+    'restrict': {
+      restriction: '#drop-container'
+    },
     inertia: {
       resistance: 30,
       minSpeed: 200,

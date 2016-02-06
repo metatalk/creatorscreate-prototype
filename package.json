@@ -39,5 +39,8 @@
         "single"
       ]
     }
+  },
+  "dependencies": {
+    "gulp-file-include": "^0.13.7"
   }
 }

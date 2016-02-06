@@ -1,0 +1,33 @@
+.navbar {
+  &__nav {
+    @extend %unstyled;
+    position: absolute;
+    background: #FFF;
+    width: 100%;
+    z-index: 0;
+    @include media("≥desktop") {
+      position: static;
+      height: auto;
+    }
+  }
+  &__toggle {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #EEE;
+  }
+  &__logo {
+    font-weight: bold;
+    vertical-align: middle;
+  }
+  &__item {
+    border-bottom: 1px solid #EEE;
+    a {
+      display: inline-block;
+      padding: 10px;
+      text-decoration: none;
+    }
+  }
+
+}
