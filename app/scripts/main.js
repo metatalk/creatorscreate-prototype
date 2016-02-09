@@ -43,6 +43,11 @@ $(document).ready(function() {
   }).resize();
 
 
+
+  /*
+   SIDENAV
+   */
+
   $('.side-nav__item a').hover(function() {
     var menuItem = $(this); //.addClass('is-active');
     var menu = $(menuItem.data('trigger')).toggleClass('is-visible');
@@ -55,6 +60,15 @@ $(document).ready(function() {
   });
 
 
+  /*
+   DIALOG
+   */
+
+  var dlgtrigger = document.querySelector( '[data-dialog]' ),
+    somedialog = document.getElementById( dlgtrigger.getAttribute( 'data-dialog' ) ),
+    dlg = new DialogFx( somedialog );
+
+  dlgtrigger.addEventListener( 'click', dlg.toggle.bind(dlg) );
 
 
   /*

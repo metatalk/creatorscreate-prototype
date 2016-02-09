@@ -1,0 +1,27 @@
+.form {
+  padding: 10px 0;
+  &__element {
+    padding: 10px 0;
+    &--checkbox {
+      font-size: 0.9em;
+      padding: 5px 0;
+    }
+  }
+  label {
+    display: block;
+    font-weight: 500;
+  }
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  padding: 5px;
+}
+
+.input {
+  &--block {
+    width: 100%;
+    max-width: 300px;
+  }
+}

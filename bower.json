@@ -10,10 +10,12 @@
     "include-media": "~1.4.2",
     "slick-carousel": "~1.5.9",
     "interact": "~1.2.6",
-    "typi": "~1.1.0"
+    "typi": "~1.1.0",
+    "classie": "~1.0.1"
   },
   "devDependencies": {
     "chai": "~3.4.2",
-    "mocha": "~2.3.4"
+    "mocha": "~2.3.4",
+    "classie": "~1.0.1"
   }
 }

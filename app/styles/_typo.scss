@@ -33,6 +33,11 @@ h1 {
   }
 }
 
+h2 {
+  margin-top: 0;
+  @include typi($h2-map);
+}
+
 a {
   color: inherit;
 }
