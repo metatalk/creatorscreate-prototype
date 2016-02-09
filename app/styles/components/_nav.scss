@@ -1,33 +1,140 @@
 .navbar {
+  @extend %clearfix;
+  border-bottom: 1px solid $border-color;
+  background: #FFF;
   &__nav {
     @extend %unstyled;
     position: absolute;
     background: #FFF;
     width: 100%;
     z-index: 0;
+    transform: translateY(-100%);
     @include media("≥desktop") {
       position: static;
       height: auto;
+      transform: none;
     }
   }
   &__toggle {
     display: inline-block;
     vertical-align: middle;
-    padding: 10px;
-    margin: 10px;
-    border: 1px solid #EEE;
+    padding: 5px;
+    background: #FFF;
+    img {
+      display: block;
+    }
+    @include media("≥desktop") {
+      visibility: hidden;
+    }
+    .creator & {
+      visibility: visible;
+      position: fixed;
+      top: 20px;
+      left: 45px;
+    }
   }
   &__logo {
     font-weight: bold;
     vertical-align: middle;
+    position: relative;
+    z-index: 100;
+    background: #FFF;
+    @include media("≥desktop") {
+      float: left;
+    }
   }
   &__item {
-    border-bottom: 1px solid #EEE;
+    border-bottom: 1px solid $border-color;
     a {
       display: inline-block;
       padding: 10px;
       text-decoration: none;
+      text-transform: uppercase;
+      font-weight: 700;
+      letter-spacing: 1px;
+      @include typi($nav-map);
+      .navbar__logo & {
+        font-weight: 300;
+      }
+    }
+    @include media("≥desktop") {
+      float: left;
+      border: none;
+      a {
+        padding: 20px 25px;
+      }
     }
   }
+  &__cart {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 100;
+    @include media("≥desktop") {
+      position: static;
+      float: right;
+    }
+  }
+  .creator & {
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    top: -300px;
+  }
+}
 
+.side-nav {
+  &__nav {
+    @extend %unstyled;
+  }
+  &__item a,
+  &__label {
+    display: block;
+    padding: 15px 20px;
+    font-weight: 700;
+    text-decoration: none;
+    border-top: 1px solid $brand-color-primary;
+    small {
+      display: block;
+      font-weight: 300;
+    }
+    &--disabled {
+      opacity: 0.5;
+    }
+  }
+  &__item a:hover,
+  &__item a.is-active {
+    background: #FFF;
+    color: $text-color;
+  }
+  &__label {
+    font-weight: 300;
+  }
+}
+
+.side-nav-menu {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  bottom: 20px;
+  left: -20px;
+  background: #FFF;
+  color: $text-color;
+  padding: 20px;
+  &__list {
+    @extend %unstyled;
+    margin-bottom: 40px;
+  }
+  &__item {
+    &:first-child {
+      font-weight: 700;
+    }
+  }
+  &.is-visible,
+  &:hover {
+    opacity: 1;
+    visibility: visible;
+  }
 }

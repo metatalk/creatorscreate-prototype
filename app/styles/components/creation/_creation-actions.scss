@@ -1,0 +1,33 @@
+.creation-actions {
+  border-top: 1px solid $border-color;
+  text-align: center;
+  position: relative;
+  @include media("≥desktop") {
+    text-align: left;
+    border: none;
+    @include span(4 of 12 inside no-gutters);
+    height: 85vh;
+  }
+  &__header {
+    padding: 20px 20px 5px 20px;
+    @include media("≥desktop") {
+      padding: 90px 40px 10px 50px;
+    }
+  }
+  &__order {
+    padding: 0 20px;
+    @include media("≥desktop") {
+      padding: 20px 50px;
+    }
+  }
+  &__share {
+    padding: 20px 50px;
+    border-top: 1px solid $border-color;
+    @include media("≥desktop") {
+      position: absolute;
+      width: 100%;
+      bottom: 0;
+      left: 0;
+    }
+  }
+}

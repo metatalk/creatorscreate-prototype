@@ -1,0 +1,58 @@
+.creation-overview {
+  @include container(100%);
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.creation-thumbnail {
+  @include media("≥desktop") {
+    @include gallery(1 of 5);
+    margin-bottom: gutter(5);
+    border: 1px solid #EEE;
+    overflow: hidden;
+  }
+  a {
+    text-decoration: none;
+  }
+  &__image {
+    padding: 20px;
+    background: #FDFDFD;
+    overflow: hidden;
+    img {
+      transition: transform 0.2s;
+    }
+  }
+  &__caption {
+    border-top: 1px solid #EEE;
+    padding: 15px 20px;
+    position: relative;
+    small {
+      display: block;
+    }
+  }
+  &__likes {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #FFF;
+    border-radius: 100%;
+    text-align: center;
+    display: block;
+    position: absolute;
+    top: -25px;
+    right: 20px;
+    background: $brand-color-red;
+    vertical-align: middle;
+  }
+  .icon-heart {
+    fill: #FFF;
+    width: 11px;
+    height: 11px;
+    margin-right: 2px;
+  }
+  &:hover &__image img {
+    transform: scale(1.03);
+  }
+}

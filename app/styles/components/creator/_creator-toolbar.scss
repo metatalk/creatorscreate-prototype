@@ -1,0 +1,8 @@
+.creator-toolbar {
+  background: darken($brand-color-primary,10%);
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  height: 100%;
+  width: $toolbar-width;
+}

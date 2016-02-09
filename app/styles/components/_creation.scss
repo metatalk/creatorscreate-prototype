@@ -1,0 +1,4 @@
+.creation {
+  @include container(100%);
+  border-bottom: 1px solid $border-color;
+}

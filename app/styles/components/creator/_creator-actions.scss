@@ -1,0 +1,94 @@
+.creator-actions {
+  @include media("≥desktop") {
+    @include span(5 of 12 last);
+    height: 100vh;
+  }
+}
+
+.creator-actions__header {
+  background: $brand-color-primary;
+  @include media("≥desktop") {
+    height: 50px;
+  }
+}
+
+.creator-design-elements {
+  overflow: hidden;
+  background: #F5F5F5;
+  @include media("≥desktop") {
+    height: calc(100vh - #{$design-footer-height});
+    overflow: scroll;
+  }
+}
+
+.creator-design-elements__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  height: 100%;
+  @include layout($gallery);
+  @include media("≥desktop") {
+    @extend %clearfix;
+    padding: 20px 20px $design-footer-height 20px;
+    height: auto;
+  }
+}
+
+.creator-design-elements__element {
+  border: 2px dashed #DDD;
+  border-radius: 4px;
+  padding: 20px;
+  cursor: move;
+  background: #FFF;
+  position: relative;
+  width: 100px;
+  &:hover {
+    border-color: #BBB;
+  }
+  @include media("≥desktop") {
+    @include gallery(2 of 6);
+    margin-bottom: gutter(6);
+  }
+}
+
+.draggable {
+  position: relative;
+  top: 0;
+  left: 0;
+  img {
+    user-select: none;
+    display: block;
+    width: 200px;
+  }
+}
+
+.drag-element-clone {
+  position: absolute;
+  img {
+    width: 100%;
+  }
+}
+
+.resize-handle {
+  position: absolute;
+  background: yellow;
+  width: 15px;
+  height: 15px;
+  top: 10px;
+  left: 10px;
+}
+
+.creator-actions__footer {
+  background: $brand-color-primary;
+  button {
+    margin: 10px;
+  }
+  @include media("≥desktop") {
+    height: $design-footer-height;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    z-index: 100;
+  }
+}

@@ -42,6 +42,21 @@ $(document).ready(function() {
 
   }).resize();
 
+
+  $('.side-nav__item a').hover(function() {
+    var menuItem = $(this); //.addClass('is-active');
+    var menu = $(menuItem.data('trigger')).toggleClass('is-visible');
+    /*if(menu.hasClass('is-visible')) {
+      menu.mouseout(function() {
+        console.log('test');
+        menuItem.removeClass('is-active');
+      });
+    }*/
+  });
+
+
+
+
   /*
     INTERACTIONS DESIGN ELEMENTS
    */

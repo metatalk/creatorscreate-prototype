@@ -1,0 +1,26 @@
+.creator-design {
+  position: relative;
+  @include media("≥desktop") {
+    @include span(7 of 12);
+    height: 100vh;
+  }
+}
+
+.creator-product {
+  height: 100vh;
+  padding-left: $toolbar-width;
+  text-align: center;
+  &__editor {
+    top: 50px;
+    height: 80%;
+    background: red;
+    position: relative;
+    display: inline-block;
+  }
+  &__mask {
+    height: 100%;
+    img {
+      height: 100%;
+    } 
+  }
+}

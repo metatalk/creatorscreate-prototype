@@ -2,6 +2,8 @@
 
 <div class="creator" id="creator">
 
+  @@include('./parts/nav.html')
+
   <div class="creator-design">
     <!-- TOOLBAR -->
     <ul class="creator-toolbar">
@@ -13,7 +15,9 @@
     <!-- PRODUCT -->
     <div class="creator-product">
       <div class="creator-product__editor" id="drop-container">
-        case
+        <div class="creator-product__mask">
+          <img src="images/iphone-6.png" alt="">
+        </div>
       </div>
     </div>
   </div>
@@ -89,7 +93,7 @@
       </ul>
     </div>
     <div class="creator-actions__footer">
-      <button>Save</button>
+      <button class="btn btn--primary">Save &amp; download</button>
     </div>
   </div>
 

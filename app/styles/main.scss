@@ -2,6 +2,7 @@
 @import "bower_components/susy/sass/_susy.scss";
 @import "bower_components/normalize-scss/_normalize.scss";
 @import "bower_components/include-media/dist/_include-media.scss";
+@import "bower_components/typi/scss/_typi.scss";
 // endbower
 
 @import "bower_components/slick-carousel/slick/slick.scss";
@@ -9,9 +10,21 @@
 @import "variables";
 @import "mixins";
 @import "typo";
+@import "components/buttons";
 @import "components/nav";
+@import "components/home/header";
 @import "components/creator";
 @import "components/creator/creator-product";
+@import "components/creator/creator-toolbar";
+@import "components/creator/creator-actions";
+@import "components/creation";
+@import "components/creation/creation-thumbnail";
+@import "components/creation/creation-actions";
+@import "components/creation/creation-result";
+
+* {
+  box-sizing: border-box;
+}
 
 html,body {
   min-height: 100vh;

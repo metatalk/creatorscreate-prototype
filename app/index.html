@@ -1,8 +1,61 @@
 @@include('./parts/header.html')
 @@include('./parts/nav.html')
-    
-<p>
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam culpa dolore facere ipsam ipsum itaque libero natus, officia, provident, ratione reprehenderit sint? Aspernatur cupiditate ducimus in, maiores nesciunt repellendus voluptate.
-</p>
+
+<article class="home">
+  <div class="home-header">
+    <nav class="side-nav home-header__nav">
+      <p class="side-nav__label">Create</p>
+      <ul class="side-nav__nav">
+        <li class="side-nav__item"><a href="#" data-trigger="#menu-smartphone-wallpapers">Smartphone wallpaper</a></li>
+        <li class="side-nav__item"><a href="#" data-trigger="#menu-desktop-wallpapers">Desktop wallpaper</a></li>
+        <li class="side-nav__item side-nav__item--disabled"><a>Smartphone case <small>(Coming soon)</small></a></li>
+        <li class="side-nav__item side-nav__item--disabled"><a>Tablet case <small>(Coming soon)</small></a></li>
+        <li class="side-nav__item side-nav__item--disabled"><a>Pillow cover <small>(Coming soon)</small></a></li>
+        <li class="side-nav__item side-nav__item--disabled"><a>Wallet <small>(Coming soon)</small></a></li>
+        <li class="side-nav__item side-nav__item--disabled"><a>Mug <small>(Coming soon)</small></a></li>
+      </ul>
+    </nav>
+    <div class="home-header__content">
+      @@include('./parts/sidebar-menu.html')
+      <div class="home-cta">
+        <div class="home-cta__image">
+          <img src="images/temp-homepage.png" alt="">
+        </div>
+        <div class="home-cta__tagline">
+          <h1 class="tagline">Create your free <strong>smartphone wallpaper</strong> using Musketon illustrations</h1>
+          <p>Be the creative</p>
+          <a href="creator.html" class="btn btn--primary btn--big">Create a free wallpaper</a>
+          <aside class="home-cta__artists">
+            We're also looking for new artists. <a href="">More info</a>
+          </aside>
+        </div>
+      </div>
+    </div>
+  </div>
+  <section>
+    <header class="section-header">
+      <h1>Inspire yourself</h1>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ad aliquam aspernatur blanditiis commodi cupiditate dolorem.
+      </p>
+    </header>
+    <div class="creation-overview">
+      @@include('./parts/creation-thumbnail.html')
+      @@include('./parts/creation-thumbnail.html')
+      @@include('./parts/creation-thumbnail.html')
+      @@include('./parts/creation-thumbnail.html')
+      @@include('./parts/creation-thumbnail.html')
+      @@include('./parts/creation-thumbnail.html')
+      @@include('./parts/creation-thumbnail.html')
+      @@include('./parts/creation-thumbnail.html')
+      @@include('./parts/creation-thumbnail.html')
+      @@include('./parts/creation-thumbnail.html')
+    </div>
+    <footer class="section-footer">
+      <a href="" class="btn">Show more examples</a>
+    </footer>
+
+  </section>
+</article>
 
 @@include('./parts/footer.html')
