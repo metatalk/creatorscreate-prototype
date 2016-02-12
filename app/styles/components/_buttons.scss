@@ -23,6 +23,25 @@
   &--big {
     padding: 20px 50px 18px 50px;
   }
+  &--small {
+    padding: 12px 20px 8px 20px;
+    font-size: 0.6em;
+  }
+  &--inline {
+    border: none;
+    padding-left: 0;
+    padding-right: 20px;
+    &:hover {
+      background: none;
+      color: $text-color;
+      span {
+        text-decoration: underline;
+      }
+      .icon {
+        fill: $text-color;
+      }
+    }
+  }
   &--primary {
     color: #FFF;
     background: $button-color;
@@ -41,6 +60,6 @@
     width: 16px;
     margin-right: 10px;
     position: relative;
-    top: -1px;
+    top: -2px;
   }
 }

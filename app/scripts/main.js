@@ -1,6 +1,10 @@
 $(document).ready(function() {
 
-  document.ontouchmove = function(e) {e.preventDefault()};
+  // change to something better
+  if($('#creator').length) {
+    document.ontouchmove = function(e) {e.preventDefault()};
+  }
+
 
   var breakpoint = {};
 

@@ -85,6 +85,10 @@
 }
 
 .side-nav {
+  display: none;
+  @include media("≥desktop") {
+    display: block;
+  }
   &__nav {
     @extend %unstyled;
   }

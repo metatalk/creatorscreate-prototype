@@ -1,4 +1,3 @@
-
 .wf-loading {
   visibility: hidden;
 }
@@ -31,11 +30,30 @@ h1 {
   .really-small {
     font-size: 50%;
   }
+  .really-small--bottom {
+    text-transform: capitalize;
+    font-style: italic;
+    font-size: 60%;
+  }
 }
 
 h2 {
   margin-top: 0;
   @include typi($h2-map);
+}
+
+h3 {
+  margin-top: 0;
+}
+
+.label {
+  &--small {
+    font-size: 0.9em;
+  }
+}
+
+p {
+  margin: 12px 0;
 }
 
 a {

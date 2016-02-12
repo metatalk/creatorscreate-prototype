@@ -7,6 +7,9 @@
 
 .creator-actions__header {
   background: $brand-color-primary;
+  p {
+    margin: 0;
+  }
   @include media("≥desktop") {
     height: 50px;
   }
