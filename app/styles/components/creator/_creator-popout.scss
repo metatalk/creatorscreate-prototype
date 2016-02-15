@@ -1,0 +1,24 @@
+.creator-popout {
+  background: $popout-color;
+  color: #FFF;
+  position: absolute;
+  left: $toolbar-width;
+  top: 0;
+  bottom: 0;
+  padding: 0 30px;
+  z-index: 10;
+  width: $popout-width;
+  max-width: 55%;
+  transform: translateX(-100%);
+  transition: $popout-transition;
+  .has-popout & {
+    transform: translateX(0);
+  }
+  &__function {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 20px;
+    left: 40px;
+  }
+}

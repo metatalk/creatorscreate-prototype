@@ -68,3 +68,7 @@ $toolbar-width: 80px;
 $design-footer-height: 75px;
 
 $border-color: #EEE;
+
+$popout-color: darken($brand-color-primary,30%);
+$popout-width: 300px;
+$popout-transition: all 0.2s linear;

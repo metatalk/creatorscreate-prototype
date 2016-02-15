@@ -90,6 +90,10 @@ $(document).ready(function() {
     });
   });
 
+  $('.creator-toolbar__item').click(function(e) {
+    e.preventDefault();
+    $('.creator-design').toggleClass('has-popout');
+  });
 
   /*
     INTERACTIONS DESIGN ELEMENTS

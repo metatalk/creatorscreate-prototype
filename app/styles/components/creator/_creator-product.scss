@@ -16,6 +16,12 @@
     background: red;
     position: relative;
     display: inline-block;
+    transition: $popout-transition;
+    .has-popout & {
+      transform: translateX($popout-width /2);
+      @include media("≥desktop") {
+      }
+    }
   }
   &__mask {
     height: 100%;
