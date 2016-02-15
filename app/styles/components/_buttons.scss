@@ -10,6 +10,7 @@
   text-decoration: none;
   @include typi($button-map);
   transition: all 0.2s linear;
+  cursor: pointer;
   &:focus {
     outline: none;
   }

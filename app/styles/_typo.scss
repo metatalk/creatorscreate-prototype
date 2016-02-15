@@ -40,10 +40,18 @@ h1 {
 h2 {
   margin-top: 0;
   @include typi($h2-map);
+  small {
+    display: block;
+    font-weight: 300;
+  }
 }
 
 h3 {
   margin-top: 0;
+  small {
+    display: block;
+    font-weight: 300;
+  }
 }
 
 .label {

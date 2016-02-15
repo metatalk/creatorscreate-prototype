@@ -30,7 +30,8 @@
       display: block;
     }
   }
-  &__likes {
+  &__likes,
+  &__top {
     width: 50px;
     height: 50px;
     line-height: 50px;
@@ -46,11 +47,11 @@
     background: $brand-color-red;
     vertical-align: middle;
   }
-  .icon-heart {
-    fill: #FFF;
-    width: 11px;
-    height: 11px;
-    margin-right: 2px;
+  &__top {
+    line-height: 65px;
+    background: $brand-color-gold;
+    right: 75px;
+    z-index: 10;
   }
   &:hover &__image img {
     transform: scale(1.03);

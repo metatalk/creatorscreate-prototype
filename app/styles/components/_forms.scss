@@ -11,6 +11,18 @@
     display: block;
     font-weight: 500;
   }
+  &__secundary-action {
+    padding: 10px 0 0 0;
+    color: lighten($text-color,20%);
+    display: block;
+    .btn {
+      margin-left: 10px;
+    }
+    @include media("≥desktop") {
+      padding-left: 10px;
+      display: inline-block;
+    }
+  }
 }
 
 input[type="text"],

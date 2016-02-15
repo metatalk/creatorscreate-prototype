@@ -68,11 +68,27 @@ $(document).ready(function() {
    DIALOG
    */
 
-  var dlgtrigger = document.querySelector( '[data-dialog]' ),
-    somedialog = document.getElementById( dlgtrigger.getAttribute( 'data-dialog' ) ),
-    dlg = new DialogFx( somedialog );
+  var dlgtrigger = document.querySelector( '[data-dialog]' );
 
-  dlgtrigger.addEventListener( 'click', dlg.toggle.bind(dlg) );
+  if(dlgtrigger) {
+
+    somedialog = document.getElementById(dlgtrigger.getAttribute('data-dialog')),
+      dlg = new DialogFx(somedialog);
+
+    dlgtrigger.addEventListener('click', dlg.toggle.bind(dlg));
+  }
+
+  /*
+    SAVE FORM (pleeassseee make this better)
+   */
+
+  $('#creator-save').click(function(e) {
+    e.preventDefault();
+    $('.creator-actions__save').addClass('is-open');
+    $('#cancel').click(function (e) {
+      $('.creator-actions__save').removeClass('is-open');
+    });
+  });
 
 
   /*

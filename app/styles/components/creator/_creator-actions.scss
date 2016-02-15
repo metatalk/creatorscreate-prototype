@@ -1,4 +1,5 @@
 .creator-actions {
+  position: relative;
   @include media("≥desktop") {
     @include span(5 of 12 last);
     height: 100vh;
@@ -84,14 +85,42 @@
 
 .creator-actions__footer {
   background: $brand-color-primary;
+  text-align: center;
   button {
     margin: 10px;
   }
   @include media("≥desktop") {
+    text-align: left;
     height: $design-footer-height;
     position: absolute;
     bottom: 0;
     width: 100%;
     z-index: 100;
+  }
+}
+
+.creator-actions__save {
+  position: fixed;
+  width: 100%;
+  padding: 30px 30px 50px 30px;
+  background: #FFF;
+  bottom: 0;
+  left: 0;
+  z-index: 100;
+  border-top: 1px solid #EEE;
+  transform: translateY(100%);
+  transition: all 0.7s cubic-bezier(.87,-.41,.19,1.44);
+  &.is-open {
+    transform: translateY(40px);
+  }
+  @include media("≥desktop") {
+    position: absolute;
+    width: calc(100% + 50px);
+    top: 0;
+    border-left: 1px solid #EEE;
+    transform: translateY(0) translateX(100%);
+    &.is-open {
+      transform: translateY(0) translateX(0);
+    }
   }
 }
