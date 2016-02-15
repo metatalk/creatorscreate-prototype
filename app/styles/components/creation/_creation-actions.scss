@@ -23,6 +23,7 @@
   }
   &__share {
     padding: 20px;
+    margin-top: 25px;
     border-top: 1px solid $border-color;
     @include media("≥desktop") {
       padding: 30px 20px 30px 70px;
@@ -30,6 +31,7 @@
       width: 100%;
       bottom: 0;
       left: 0;
+      margin-top: 0;
     }
   }
 }
