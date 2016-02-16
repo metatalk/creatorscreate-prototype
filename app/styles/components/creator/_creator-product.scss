@@ -11,7 +11,7 @@
   padding-left: $toolbar-width;
   text-align: center;
   &__editor {
-    top: 50px;
+    top: 80px;
     height: 80%;
     background: red;
     position: relative;
@@ -28,5 +28,16 @@
     img {
       height: 100%;
     } 
+  }
+  &__select {
+    top: 20px;
+    position: absolute;
+    width: calc(100% - #{$toolbar-width});
+    span {
+      display: none;
+      @include media("≥desktop") {
+        display: inline;
+      }
+    }
   }
 }
