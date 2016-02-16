@@ -14,20 +14,7 @@
     }
   }
   a {
-    display: block;
-    text-align: center;
     text-decoration: none;
-    text-transform: uppercase;
-    font-size: 0.65em;
-    letter-spacing: 2px;
-    color: #FFF;
-    padding: 13px 0;
-    @include media("≥desktop") {
-      padding: 20px 0;
-    }
-    &:hover {
-      background: darken($brand-color-primary, 20%);
-    }
   }
   span {
     display: block;
@@ -36,6 +23,20 @@
   &__item {
     width: 100%;
     position: relative;
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 0.65em;
+    letter-spacing: 2px;
+    color: #FFF;
+    padding: 13px 0;
+    cursor: pointer;
+    @include media("≥desktop") {
+      padding: 20px 0;
+    }
+    &:hover {
+      background: darken($brand-color-primary, 20%);
+    }
     &.is-active {
       background: $popout-color;
     }

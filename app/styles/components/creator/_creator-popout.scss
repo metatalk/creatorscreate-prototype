@@ -14,11 +14,35 @@
   .has-popout & {
     transform: translateX(0);
   }
-  &__function {
+  &__center {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
     right: 20px;
     left: 40px;
+    max-height: 100%;
+    overflow: scroll;
+  }
+}
+
+.popout-function {
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.5s;
+  &.is-active {
+    visibility: visible;
+    opacity: 1;
+  }
+}
+
+.popout-function--color {
+  &__item {
+    &:before {
+      content: "";
+      display: block;
+      padding-top: 100%;
+    }
+    border: $popout-color 4px solid;
+    @include gallery(1 of 3);
   }
 }

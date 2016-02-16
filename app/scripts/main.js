@@ -90,9 +90,23 @@ $(document).ready(function() {
     });
   });
 
+  /*
+   TOOLBAR (pleeassseee make this better)
+   */
+
+  var popout = false,
+      open = false;
+
   $('.creator-toolbar__item').click(function(e) {
     e.preventDefault();
-    $('.creator-design').toggleClass('has-popout');
+    if(open) {
+      open.removeClass('is-active');
+    }
+    open = $(this).addClass('is-active');
+    if(!popout) {
+      $('.creator-design').addClass('has-popout');
+    }
+    $(open.data('open')).toggleClass('is-active');
   });
 
   /*
