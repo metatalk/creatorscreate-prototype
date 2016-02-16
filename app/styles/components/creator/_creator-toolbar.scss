@@ -34,14 +34,17 @@
     @include media("≥desktop") {
       padding: 20px 0;
     }
-    &:hover {
+    &:not(.is-active):hover {
       background: darken($brand-color-primary, 20%);
     }
     &.is-active {
-      background: $popout-color;
+      @extend %popout-style;
     }
   }
   img {
     max-width: 30px;
+  }
+  svg {
+    fill: #FFF;
   }
 }

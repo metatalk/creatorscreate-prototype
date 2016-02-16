@@ -3,11 +3,13 @@
   @include media("≥desktop") {
     @include span(5 of 12 last);
     height: 100vh;
+    border-left: 1px solid $border-color;
   }
 }
 
 .creator-actions__header {
-  background: $brand-color-primary;
+  background: #FFF;
+  border-bottom: 1px solid $border-color;
   p {
     margin: 0;
   }
@@ -18,7 +20,7 @@
 
 .creator-design-elements {
   overflow: hidden;
-  background: #F5F5F5;
+  background: #F9F9F9;
   @include media("≥desktop") {
     height: calc(100vh - #{$design-footer-height});
     overflow: scroll;
@@ -84,13 +86,14 @@
 }
 
 .creator-actions__footer {
-  background: $brand-color-primary;
+  background: #FFF;
   text-align: center;
+  padding: 10px 20px;
   button {
-    margin: 10px;
+    @extend %vertical-center;
   }
   @include media("≥desktop") {
-    text-align: left;
+    border-top: 1px solid $border-color;
     height: $design-footer-height;
     position: absolute;
     bottom: 0;

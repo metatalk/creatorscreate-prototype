@@ -11,3 +11,17 @@
   margin: 0;
   padding: 0;
 }
+
+%popout-style {
+  background: $popout-color;
+  color: $text-color;
+  svg {
+    fill: $text-color;
+  }
+}
+
+%vertical-center {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}

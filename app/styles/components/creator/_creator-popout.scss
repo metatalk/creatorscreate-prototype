@@ -1,6 +1,6 @@
 .creator-popout {
-  background: $popout-color;
-  color: #FFF;
+  @extend %popout-style;
+  border-right: 1px solid #DDD;
   position: absolute;
   left: $toolbar-width;
   top: 0;
@@ -28,10 +28,15 @@
 .popout-function {
   visibility: hidden;
   opacity: 0;
+  display: none;
   transition: opacity 0.5s;
   &.is-active {
     visibility: visible;
     opacity: 1;
+    display: block;
+  }
+  &__content {
+
   }
 }
 
@@ -44,5 +49,18 @@
     }
     border: $popout-color 4px solid;
     @include gallery(1 of 3);
+  }
+}
+
+.popout-function--pattern {
+  &__maker {
+    background: #F5F5F5;
+    border: 2px dashed #DDD;
+    border-radius: 7px;
+    &:before {
+      content: "";
+      display: block;
+      padding-top: 100%;
+    }
   }
 }
