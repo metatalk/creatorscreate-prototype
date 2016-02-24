@@ -28,15 +28,17 @@
 }
 
 .dialog__content {
-  width: 50%;
+  width: 90%;
   max-width: 560px;
-  min-width: 290px;
   background: #fff;
-  padding: 4em;
+  padding: 3em 2em;
   text-align: center;
   position: relative;
   z-index: 1000;
   opacity: 0;
+  @include media("≥desktop") {
+    padding: 4em;
+  }
 }
 
 .dialog--open .dialog__content {
