@@ -1,0 +1,105 @@
+.page--brands {
+  .page__header {
+    padding-top: 80px;
+    padding-bottom: 0;
+    background: $brand-color-secundary;
+  }
+  &__cta {
+    @include media("≥desktop") {
+      @include span(3 of 12);
+      padding-top: 60px;
+    }
+  }
+  &__video {
+    @include media("≥desktop") {
+      padding-left: span(1 of 12);
+      @include span(9 of 12 last);
+    }
+    video {
+      display: block;
+      width: 100%;
+    }
+  }
+  &__partner {
+    max-height: 30px;
+    vertical-align: middle;
+    opacity: 0.9;
+    padding: 0 20px;
+  }
+}
+
+.browser-mockup {
+  border-radius: 3px;
+  background: #ddd;
+  position: relative;
+  line-height: 0;
+}
+
+.browser-mockup .frame {
+  display: block;
+  padding: 10px 5px;
+  @extend %clearfix;
+}
+
+.browser-mockup span {
+  height: 12px;
+  width: 12px;
+  display: inline-block;
+  border-radius: 8px;
+  background-color: #eee;
+  border: 1px solid #dadada;
+  float: left;
+  margin: 0 0 0 4px;
+}
+
+.blue {
+  background: $brand-color-secundary;
+  color: #FFF;
+  padding: 50px 0 80px 0;
+}
+
+.feature {
+  padding: 40px 20px 30px 20px;
+  @include container(1000px);
+  &__content {
+    padding-top: 20px;
+  }
+
+  @include media("≥desktop") {
+    &__image {
+      @include span(7 of 12);
+    }
+    &__content {
+      @include span(5 of 12);
+      padding-left: 80px;
+      padding-top: 40px;
+    }
+    &--reverse {
+      .feature__content {
+        margin-left: -#{span(12 of 12)};
+        padding-left: 0;
+        padding-right: 80px;
+      }
+      .feature__image {
+        margin-left: span(5 of 12);
+      }
+    }
+  }
+}
+
+.secundary-features {
+  @include container(1000px);
+  padding-top: 20px;
+  &__feature {
+    padding: 20px;
+    h2 {
+      font-size: 1.2em;
+    }
+    p {
+      font-size: 0.9em;
+    }
+    @include media("≥desktop") {
+      @include span(4 of 12)
+    }
+  }
+}

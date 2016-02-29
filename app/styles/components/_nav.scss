@@ -73,6 +73,7 @@
     right: 0;
     top: 0;
     z-index: 100;
+    display: none;
     @include media("≥desktop") {
       position: static;
       float: right;

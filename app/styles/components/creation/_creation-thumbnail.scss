@@ -5,11 +5,12 @@
 }
 
 .creation-thumbnail {
+  border: 1px solid #EEE;
+  overflow: hidden;
+  margin-bottom: 20px;
   @include media("≥desktop") {
     @include gallery(1 of 5);
     margin-bottom: gutter(5);
-    border: 1px solid #EEE;
-    overflow: hidden;
   }
   a {
     text-decoration: none;

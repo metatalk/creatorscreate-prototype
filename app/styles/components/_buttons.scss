@@ -28,6 +28,15 @@
     padding: 12px 20px 8px 20px;
     font-size: 0.6em;
   }
+  &--white {
+    color: #FFF;
+    border-color: #FFF;
+    background: transparent;
+    &:hover {
+      background: #FFF;
+      color: $text-color;
+    }
+  }
   &--inline {
     border: none;
     padding-left: 0;

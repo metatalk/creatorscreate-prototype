@@ -1,3 +1,40 @@
+.page {
+  &__header {
+    background: $brand-color-primary;
+    color: #FFF;
+    padding: 60px 20px 40px 20px;
+    @include media("≥desktop") {
+      padding: 120px 20px;
+    }
+  }
+  &__intro {
+    @include container();
+    strong {
+      display: block;
+    }
+  }
+  &__block {
+    padding: 40px 20px;
+    border-bottom: 1px solid $border-color;
+    @include media("≥desktop") {
+      padding: 80px 0;
+    }
+    &--center {
+      text-align: center;
+    }
+    &--nobottom {
+      padding-bottom: 0;
+      border-bottom: 0;
+    }
+    .section-header {
+      margin-top: 0;
+    }
+    .section-footer {
+      margin-bottom: 0;
+    }
+  }
+}
+
 .static {
   max-width: 900px;
   margin-left: auto;
@@ -11,5 +48,20 @@
     margin-top: 30px;
     border-top: 1px solid #EEE;
     color: lighten($text-color,20%);
+  }
+}
+
+.three-blocks {
+  @include container();
+  margin-bottom: 80px;
+  &__block {
+    @include media("≥desktop") {
+      @include span(1 of 3);
+      padding: 0 40px;
+    }
+    &--inline {
+      display: inline-block;
+      margin: 20px 30px;
+    }
   }
 }
