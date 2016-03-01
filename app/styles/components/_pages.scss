@@ -53,7 +53,7 @@
 
 .three-blocks {
   @include container();
-  margin-bottom: 80px;
+  margin-bottom: 40px;
   &__block {
     @include media("≥desktop") {
       @include span(1 of 3);
