@@ -1,7 +1,7 @@
 .form {
-  padding: 10px 0;
+  padding: 0;
   &__element {
-    padding: 10px 0;
+    padding: 5px 0;
     &--checkbox {
       font-size: 0.9em;
       padding: 5px 0;
@@ -28,10 +28,10 @@
 input[type="text"],
 input[type="email"],
 textarea {
-  padding: 7px;
+  padding: 8px;
+  border-radius: 2px;
   border: 1px solid #DDD;
   background: #FFF;
-  border-radius: 0;
   -webkit-appearance: none;
   .blue & { border: none; }
 }
@@ -39,6 +39,6 @@ textarea {
 .input {
   &--block {
     width: 100%;
-    max-width: 300px;
+    max-width: 380px;
   }
 }

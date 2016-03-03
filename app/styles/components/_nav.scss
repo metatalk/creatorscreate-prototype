@@ -60,6 +60,13 @@
         font-weight: 300;
       }
     }
+    a span {
+      border-bottom: 3px solid #FFF;
+      transition: all 0.2s;
+    }
+    a:hover span {
+      border-color: $text-color;
+    }
     @include media("≥desktop") {
       float: left;
       border: none;

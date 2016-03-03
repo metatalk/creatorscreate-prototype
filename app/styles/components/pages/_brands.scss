@@ -7,7 +7,7 @@
   &__cta {
     @include media("≥desktop") {
       @include span(3 of 12);
-      padding-top: 60px;
+      padding-top: 40px;
     }
   }
   &__video {

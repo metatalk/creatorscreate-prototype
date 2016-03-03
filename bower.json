@@ -11,7 +11,8 @@
     "slick-carousel": "~1.5.9",
     "interact": "~1.2.6",
     "typi": "~1.1.0",
-    "classie": "~1.0.1"
+    "classie": "~1.0.1",
+    "okaynav": "*"
   },
   "devDependencies": {
     "chai": "~3.4.2",
