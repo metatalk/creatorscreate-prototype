@@ -14,4 +14,7 @@
 .icon-static {
   height: 52px;
   margin: 30px;
+  .blue & {
+    margin-top: 0;
+  }
 }

@@ -26,6 +26,12 @@
       padding-bottom: 0;
       border-bottom: 0;
     }
+    &--footer {
+      text-align: center;
+      @include media("≥desktop") {
+        padding-bottom: 30px;
+      }
+    }
     .section-header {
       margin-top: 0;
     }
