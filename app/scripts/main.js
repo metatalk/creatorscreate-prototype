@@ -78,6 +78,7 @@ $(document).ready(function() {
     dlgtrigger.addEventListener('click', dlg.toggle.bind(dlg));
   }
 
+
   /*
     SAVE FORM (pleeassseee make this better)
    */
@@ -260,7 +261,12 @@ $(document).ready(function() {
 
   var angle = 0;
 
+  var iPhone = $('.iphone-6s--large');
 
+  if(iPhone.length > 0) {
+    iPhone.height(iPhone.width()*1.6);
+    iPhone.show();
+  }
 
 
 

@@ -38,7 +38,6 @@ h1 {
 }
 
 h2 {
-  margin-top: 0;
   @include typi($h2-map);
   font-weight: 500;
   small {
@@ -85,6 +84,53 @@ blockquote {
   font-size: 1.4em;
   font-weight: 300;
   footer {
+    margin-top: 12px;
     font-size: 0.6em;
+  }
+}
+
+.list-check {
+  @extend %unstyled;
+  li {
+    margin-top: 14px;
+    padding-left: 28px;
+    background: url(/images/icon-check.svg) no-repeat left 5px;
+    background-size: 15px;
+  }
+  strong {
+    display: block;
+  }
+  &--black {
+    li {
+      background-image: url(/images/icon-check-black.svg);
+    }
+  }
+}
+
+.process {
+  @extend %unstyled;
+  margin: 60px 0 0 25px;
+  &__icon {
+    position: absolute;
+    left: -26px;
+    top: 0;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    line-height: 57px;
+    text-align: center;
+    background: $brand-color-secundary;
+    border: 3px solid  darken($brand-color-secundary, 30%);
+  }
+  &__step {
+    position: relative;
+    padding: 7px 0 50px 60px;
+    &:not(:last-child) {
+      border-left: 3px dashed darken($brand-color-secundary, 30%);
+    }
+    h3 {
+      margin: 0 0 10px 0;
+    }
+
   }
 }

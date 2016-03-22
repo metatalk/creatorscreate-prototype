@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="ba791945-da49-4d59-96b6-977221281363" name="CreatorsCreate temp" url="http://brands.creatorscreate.com">
+        <fileTransfer host="brands.creatorscreate.com" port="22" rootFolder="/var/www/temp" accessType="SFTP" password="df9edf99dfcfdf9adfc8df9edfcbdf99df9edf9edf93df9cdf9bdf9edf9fdfcfdfc8" username="root">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
