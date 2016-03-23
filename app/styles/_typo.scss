@@ -19,6 +19,7 @@ h1 {
     @include typi($tagline-map);
     font-weight: 300;
     text-transform: uppercase;
+    margin-top: 0;
     &--bold {
       font-weight: 700;
     }
@@ -33,7 +34,7 @@ h1 {
   .really-small--bottom {
     text-transform: capitalize;
     font-style: italic;
-    font-size: 60%;
+    font-size: 50%;
   }
 }
 

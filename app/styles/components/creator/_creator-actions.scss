@@ -10,6 +10,7 @@
 .creator-actions__header {
   background: #FFF;
   border-bottom: 1px solid $border-color;
+  padding: 10px 20px;
   p {
     margin: 0;
   }
@@ -50,7 +51,7 @@
   position: relative;
   width: 100px;
   &:hover {
-    border-color: #BBB;
+    border-color: #AAA;
   }
   @include media("≥desktop") {
     @include gallery(2 of 6);

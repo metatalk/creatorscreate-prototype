@@ -25,6 +25,8 @@
     padding: 20px;
     margin-top: 25px;
     border-top: 1px solid $border-color;
+    background: #F9F9F9;
+    text-align: center;
     @include media("≥desktop") {
       padding: 20px 20px 20px 70px;
       position: absolute;

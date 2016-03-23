@@ -58,7 +58,6 @@
     border: 2px solid $button-color;
     &:hover {
       background: darken($button-color,10%);
-      border-color: #FFF;
     }
     .icon {
       fill: #FFF;

@@ -68,14 +68,17 @@ $(document).ready(function() {
    DIALOG
    */
 
-  var dlgtrigger = document.querySelector( '[data-dialog]' );
+  var dlgtriggers = document.querySelectorAll('[data-dialog]');
 
-  if(dlgtrigger) {
 
-    somedialog = document.getElementById(dlgtrigger.getAttribute('data-dialog')),
-      dlg = new DialogFx(somedialog);
+  if(dlgtriggers) {
+    [].forEach.call(dlgtriggers, function(dlgtrigger) {
 
-    dlgtrigger.addEventListener('click', dlg.toggle.bind(dlg));
+      somedialog = document.getElementById(dlgtrigger.getAttribute('data-dialog')),
+        dlg = new DialogFx(somedialog);
+
+      dlgtrigger.addEventListener('click', dlg.toggle.bind(dlg));
+    });
   }
 
 
