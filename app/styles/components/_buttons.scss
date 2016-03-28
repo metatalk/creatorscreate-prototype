@@ -11,6 +11,7 @@
   @include typi($button-map);
   transition: all 0.2s linear;
   cursor: pointer;
+  text-align: center;
   &:focus {
     outline: none;
   }

@@ -10,6 +10,7 @@
     z-index: 0;
     transform: translateY(-100%);
     @include media("≥desktop") {
+      font-size: 1.1rem;
       position: static;
       height: auto;
       transform: none;
@@ -18,7 +19,7 @@
   &__toggle {
     display: inline-block;
     vertical-align: middle;
-    padding: 15px;
+    padding: 10px;
     background: #FFF;
     border-radius: 2px;
     z-index: 1000;
@@ -32,25 +33,26 @@
     .creator & {
       visibility: visible;
       position: fixed;
-      top: 20px;
-      left: 45px;
+      top: 44px;
+      left: 80px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.3);
+      &:after {
+        width: 0;
+        height: 0;
+        border-top: 6px solid transparent;
+        border-bottom: 6px solid transparent;
+        border-right: 6px solid #FFF;
+        content: " ";
+        position: absolute;
+        display: block;
+        left: -6px;
+        top: 50%;
+        margin-top: -6px;
+      }
     }
   }
+  &__item,
   &__logo {
-    font-weight: bold;
-    vertical-align: middle;
-    position: relative;
-    z-index: 10;
-    background: #FFF;
-    @include media("≥desktop") {
-      float: left;
-      z-index: 0;
-    }
-    img {
-      max-height: 20px;
-    }
-  }
-  &__item {
     border-bottom: 1px solid $border-color;
     a:first-child {
       display: inline-block;
@@ -78,6 +80,33 @@
       }
       a:first-child {
         padding: 20px 25px;
+      }
+    }
+  }
+  &__logo {
+    font-weight: bold;
+    vertical-align: middle;
+    position: relative;
+    z-index: 10;
+    background: #FFF;
+    @include media("≥desktop") {
+      float: left;
+      z-index: 0;
+    }
+    img {
+      max-height: 20px;
+    }
+    .creator & {
+      position: fixed;
+      top: 20px;
+      left: 10px;
+      height: 60px;
+      width: 60px;
+      border-radius: 50%;
+      text-align: center;
+      line-height: 68px;
+      a:first-child {
+        padding: 0;
       }
     }
   }

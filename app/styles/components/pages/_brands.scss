@@ -123,7 +123,9 @@
     @include media("≥desktop") {
       @include span (7 of 12);
       position: relative;
+      padding: 40px 30px;
     }
+
   }
   &__content {
 
@@ -139,9 +141,6 @@
   }
   &__desktop {
     display: none;
-    &:first-child {
-      margin-bottom: 30px;
-    }
     @include media("≥desktop") {
       display: block;
     }
@@ -154,7 +153,7 @@
       margin-bottom: -10px;
       width: 200px;
       bottom: 0;
-      right: -40px;
+      right: -20px;
       img {
         filter: drop-shadow(-10px 5px 15px rgba(0,0,0,0.3));
       }
