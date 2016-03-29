@@ -53,9 +53,13 @@
   &:hover {
     border-color: #AAA;
   }
+
   @include media("≥desktop") {
-    @include gallery(2 of 6);
+    @include gallery(1 of 3);
     margin-bottom: gutter(6);
+  }
+  @include media(">bigscreen") {
+    @include gallery(1 of 4);
   }
 }
 
