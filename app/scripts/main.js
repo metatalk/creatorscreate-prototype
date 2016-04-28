@@ -262,14 +262,30 @@ $(document).ready(function() {
     }
   });
 
-  var angle = 0;
+  $('.form--contact').submit(function(e) {
+    e.preventDefault();
+    var form = $(this);
+    $.ajax({
+      url: "https://formspree.io/bert@metatalk.be",
+      headers : {
+        Accept : "application/json"
+      },
+      method: "POST",
+      data: {
+        name: form.find('#name').val(),
+        email: form.find('#email').val(),
+        company: form.find('#company').val()
+      },
+      dataType: "json"
+    }).done(function() {
+      fbq('track', 'Lead');
+      form.parent().find('h2').text('Yihaaa!');
+      form.html('<p class="message message--success">We got your message! Expect a reply from us very soon.</p>');
+    }).always(function(e) {
+      console.log(e);
+    });
 
-  var iPhone = $('.iphone-6s--large');
-
-  if(iPhone.length > 0) {
-    iPhone.height(iPhone.width()*1.6);
-    iPhone.show();
-  }
+  });
 
 
 

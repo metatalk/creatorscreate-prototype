@@ -2,13 +2,121 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8d570ac-4642-43fd-a430-110e03806d74" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/components/pages/_artists.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/apple-touch-icon.png" afterPath="$PROJECT_DIR$/app/apple-touch-icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/brands/CreatorsCreate.mp4" afterPath="$PROJECT_DIR$/app/images/brands/CreatorsCreate.mp4" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/brands/creatorscreate-feature-battle.jpg" afterPath="$PROJECT_DIR$/app/images/brands/creatorscreate-feature-battle.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/brands/creatorscreate-feature-create.jpg" afterPath="$PROJECT_DIR$/app/images/brands/creatorscreate-feature-create.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/brands/creatorscreate-feature-share.jpg" afterPath="$PROJECT_DIR$/app/images/brands/creatorscreate-feature-share.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/brands/creatorscreate-screenshot-freixenet.jpg" afterPath="$PROJECT_DIR$/app/images/brands/creatorscreate-screenshot-freixenet.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/brands/creatorscreate-screenshot-freixenet.png" afterPath="$PROJECT_DIR$/app/images/brands/creatorscreate-screenshot-freixenet.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/brands/creatorscreate-screenshot-mtv-social-v2.png" afterPath="$PROJECT_DIR$/app/images/brands/creatorscreate-screenshot-mtv-social-v2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/brands/creatorscreate-screenshot-mtv-social.jpg" afterPath="$PROJECT_DIR$/app/images/brands/creatorscreate-screenshot-mtv-social.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/brands/creatorscreate-screenshot-mtv-v2.png" afterPath="$PROJECT_DIR$/app/images/brands/creatorscreate-screenshot-mtv-v2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/brands/creatorscreate-screenshot-mtv-v3.png" afterPath="$PROJECT_DIR$/app/images/brands/creatorscreate-screenshot-mtv-v3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/brands/creatorscreate-screenshot-mtv-v4.png" afterPath="$PROJECT_DIR$/app/images/brands/creatorscreate-screenshot-mtv-v4.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/brands/creatorscreate-screenshot-mtv.jpg" afterPath="$PROJECT_DIR$/app/images/brands/creatorscreate-screenshot-mtv.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/brands/creatorscreate-step1.png" afterPath="$PROJECT_DIR$/app/images/brands/creatorscreate-step1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/brands/creatorscreate-step2.png" afterPath="$PROJECT_DIR$/app/images/brands/creatorscreate-step2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/brands/creatorscreate-step3.png" afterPath="$PROJECT_DIR$/app/images/brands/creatorscreate-step3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/brands/freixenet-instagram.jpg" afterPath="$PROJECT_DIR$/app/images/brands/freixenet-instagram.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/brands/freixenet-ipad-half.jpg" afterPath="$PROJECT_DIR$/app/images/brands/freixenet-ipad-half.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/brands/freixenet-ipad.jpg" afterPath="$PROJECT_DIR$/app/images/brands/freixenet-ipad.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/brands/freixenet-results-contest.jpg" afterPath="$PROJECT_DIR$/app/images/brands/freixenet-results-contest.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/brands/freixenet-results-instagram.jpg" afterPath="$PROJECT_DIR$/app/images/brands/freixenet-results-instagram.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/brands/freixenet-results.jpg" afterPath="$PROJECT_DIR$/app/images/brands/freixenet-results.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/brands/freixenet-social.jpg" afterPath="$PROJECT_DIR$/app/images/brands/freixenet-social.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/brands/logo-freixenet.png" afterPath="$PROJECT_DIR$/app/images/brands/logo-freixenet.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/brands/logo-mtv.png" afterPath="$PROJECT_DIR$/app/images/brands/logo-mtv.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/brands/mtv-1.jpg" afterPath="$PROJECT_DIR$/app/images/brands/mtv-1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/brands/mtv-2.jpg" afterPath="$PROJECT_DIR$/app/images/brands/mtv-2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/brands/mtv-3.jpg" afterPath="$PROJECT_DIR$/app/images/brands/mtv-3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/brands/mtv-4.jpg" afterPath="$PROJECT_DIR$/app/images/brands/mtv-4.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/brands/mtv-case.jpg" afterPath="$PROJECT_DIR$/app/images/brands/mtv-case.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/brands/mtv-ipad.jpg" afterPath="$PROJECT_DIR$/app/images/brands/mtv-ipad.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/creatorscreate-icon.png" afterPath="$PROJECT_DIR$/app/images/creatorscreate-icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/creatorscreate-logo.png" afterPath="$PROJECT_DIR$/app/images/creatorscreate-logo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/iphone-6.png" afterPath="$PROJECT_DIR$/app/images/iphone-6.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/temp-background.jpg" afterPath="$PROJECT_DIR$/app/images/temp-background.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/temp-homepage.png" afterPath="$PROJECT_DIR$/app/images/temp-homepage.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.bowerrc" afterPath="$PROJECT_DIR$/.bowerrc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.editorconfig" afterPath="$PROJECT_DIR$/.editorconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitattributes" afterPath="$PROJECT_DIR$/.gitattributes" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/caseapp-v3.iml" afterPath="$PROJECT_DIR$/.idea/caseapp-v3.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/webServers.xml" afterPath="$PROJECT_DIR$/.idea/webServers.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.yo-rc.json" afterPath="$PROJECT_DIR$/.yo-rc.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/_brands.html" afterPath="$PROJECT_DIR$/app/_brands.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/artists.html" afterPath="$PROJECT_DIR$/app/artists.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/brands.html" afterPath="$PROJECT_DIR$/app/brands.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/creation.html" afterPath="$PROJECT_DIR$/app/creation.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/creator.html" afterPath="$PROJECT_DIR$/app/creator.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/explore.html" afterPath="$PROJECT_DIR$/app/explore.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/help.html" afterPath="$PROJECT_DIR$/app/help.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/brands/icon-data.svg" afterPath="$PROJECT_DIR$/app/images/brands/icon-data.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/brands/icon-eye.svg" afterPath="$PROJECT_DIR$/app/images/brands/icon-eye.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/brands/icon-graph.svg" afterPath="$PROJECT_DIR$/app/images/brands/icon-graph.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/brands/icon-users.svg" afterPath="$PROJECT_DIR$/app/images/brands/icon-users.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/hamburger.svg" afterPath="$PROJECT_DIR$/app/images/hamburger.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/icon-check-black.svg" afterPath="$PROJECT_DIR$/app/images/icon-check-black.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/icon-check.svg" afterPath="$PROJECT_DIR$/app/images/icon-check.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/icon-claim.svg" afterPath="$PROJECT_DIR$/app/images/icon-claim.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/icon-color.svg" afterPath="$PROJECT_DIR$/app/images/icon-color.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/icon-heart.svg" afterPath="$PROJECT_DIR$/app/images/icon-heart.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/icon-help.svg" afterPath="$PROJECT_DIR$/app/images/icon-help.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/icon-pattern.svg" afterPath="$PROJECT_DIR$/app/images/icon-pattern.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/icon-phone.svg" afterPath="$PROJECT_DIR$/app/images/icon-phone.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/icon-process-artist.svg" afterPath="$PROJECT_DIR$/app/images/icon-process-artist.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/icon-process-control.svg" afterPath="$PROJECT_DIR$/app/images/icon-process-control.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/icon-process-goal.svg" afterPath="$PROJECT_DIR$/app/images/icon-process-goal.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/icon-process-grow.svg" afterPath="$PROJECT_DIR$/app/images/icon-process-grow.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/icon-process-product.svg" afterPath="$PROJECT_DIR$/app/images/icon-process-product.svg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/parts/creation-thumbnail.html" afterPath="$PROJECT_DIR$/app/parts/creation-thumbnail.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/parts/creator-saveform.html" afterPath="$PROJECT_DIR$/app/parts/creator-saveform.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/parts/creator-toolbar.html" afterPath="$PROJECT_DIR$/app/parts/creator-toolbar.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/parts/footer.html" afterPath="$PROJECT_DIR$/app/parts/footer.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/parts/header.html" afterPath="$PROJECT_DIR$/app/parts/header.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/parts/modal-temp.html" afterPath="$PROJECT_DIR$/app/parts/modal-temp.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/parts/modal.html" afterPath="$PROJECT_DIR$/app/parts/modal.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/parts/nav.html" afterPath="$PROJECT_DIR$/app/parts/nav.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/parts/sidebar-menu.html" afterPath="$PROJECT_DIR$/app/parts/sidebar-menu.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/robots.txt" afterPath="$PROJECT_DIR$/app/robots.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/dialog.js" afterPath="$PROJECT_DIR$/app/scripts/dialog.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/main.js" afterPath="$PROJECT_DIR$/app/scripts/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/_mixins.scss" afterPath="$PROJECT_DIR$/app/styles/_mixins.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/_typo.scss" afterPath="$PROJECT_DIR$/app/styles/_typo.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/_variables.scss" afterPath="$PROJECT_DIR$/app/styles/_variables.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/components/_buttons.scss" afterPath="$PROJECT_DIR$/app/styles/components/_buttons.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/components/_creation.scss" afterPath="$PROJECT_DIR$/app/styles/components/_creation.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/components/_creator.scss" afterPath="$PROJECT_DIR$/app/styles/components/_creator.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/components/_devices.scss" afterPath="$PROJECT_DIR$/app/styles/components/_devices.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/components/_dialog.scss" afterPath="$PROJECT_DIR$/app/styles/components/_dialog.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/components/_forms.scss" afterPath="$PROJECT_DIR$/app/styles/components/_forms.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/components/_icons.scss" afterPath="$PROJECT_DIR$/app/styles/components/_icons.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/components/_nav.scss" afterPath="$PROJECT_DIR$/app/styles/components/_nav.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/components/_pages.scss" afterPath="$PROJECT_DIR$/app/styles/components/_pages.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/components/creation/_creation-actions.scss" afterPath="$PROJECT_DIR$/app/styles/components/creation/_creation-actions.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/components/creation/_creation-result.scss" afterPath="$PROJECT_DIR$/app/styles/components/creation/_creation-result.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/components/creation/_creation-thumbnail.scss" afterPath="$PROJECT_DIR$/app/styles/components/creation/_creation-thumbnail.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/components/creator/_creator-actions.scss" afterPath="$PROJECT_DIR$/app/styles/components/creator/_creator-actions.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/components/creator/_creator-popout.scss" afterPath="$PROJECT_DIR$/app/styles/components/creator/_creator-popout.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/components/creator/_creator-product.scss" afterPath="$PROJECT_DIR$/app/styles/components/creator/_creator-product.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/components/creator/_creator-toolbar.scss" afterPath="$PROJECT_DIR$/app/styles/components/creator/_creator-toolbar.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/components/home/_header.scss" afterPath="$PROJECT_DIR$/app/styles/components/home/_header.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/components/pages/_brands.scss" afterPath="$PROJECT_DIR$/app/styles/components/pages/_brands.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/main.scss" afterPath="$PROJECT_DIR$/app/styles/main.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/v2.html" afterPath="$PROJECT_DIR$/app/v2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower.json" afterPath="$PROJECT_DIR$/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulpfile.babel.js" afterPath="$PROJECT_DIR$/gulpfile.babel.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/index.html" afterPath="$PROJECT_DIR$/test/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/spec/test.js" afterPath="$PROJECT_DIR$/test/spec/test.js" />
     </list>
     <ignored path="hatch-2016.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,51 +138,53 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/index.html">
+      <file leaf-file-name="artists.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/artists.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.5833335">
-              <caret line="28" column="92" selection-start-line="28" selection-start-column="92" selection-end-line="28" selection-end-column="92" />
+            <state relative-caret-position="360">
+              <caret line="24" column="68" selection-start-line="24" selection-start-column="68" selection-end-line="24" selection-end-column="68" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="nav.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/parts/nav.html">
+      <file leaf-file-name="_artists.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/styles/components/pages/_artists.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.625">
-              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state relative-caret-position="255">
+              <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_nav.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/styles/components/_nav.scss">
+      <file leaf-file-name="_pages.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/styles/components/_pages.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.5">
-              <caret line="12" column="20" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="20" />
+            <state relative-caret-position="60">
+              <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="7" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_creator-toolbar.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/styles/components/creator/_creator-toolbar.scss">
+      <file leaf-file-name="brands.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/brands.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.0">
-              <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
-              <folding />
+            <state relative-caret-position="1200">
+              <caret line="146" column="12" selection-start-line="108" selection-start-column="2" selection-end-line="146" selection-end-column="12" />
+              <folding>
+                <element signature="n#section#1;n#article#0;n#!!top" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_creation-actions.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/styles/components/creation/_creation-actions.scss">
+      <file leaf-file-name="_typo.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/styles/_typo.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-17.5">
-              <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
+            <state relative-caret-position="585">
+              <caret line="39" column="1" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -83,48 +193,8 @@
       <file leaf-file-name="_creator-actions.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/styles/components/creator/_creator-actions.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-22.5">
-              <caret line="61" column="27" selection-start-line="61" selection-start-column="27" selection-end-line="61" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_variables.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/styles/_variables.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.5">
-              <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_typo.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/styles/_typo.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-19.375">
-              <caret line="82" column="21" selection-start-line="82" selection-start-column="21" selection-end-line="82" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_buttons.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/styles/components/_buttons.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-18.125">
-              <caret line="44" column="18" selection-start-line="44" selection-start-column="18" selection-end-line="44" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="creator-saveform.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/parts/creator-saveform.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.10653409">
-              <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
+            <state relative-caret-position="465">
+              <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -138,7 +208,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/styles/components/home/_nav.scss" />
         <option value="$PROJECT_DIR$/app/parts/progress-button.html" />
         <option value="$PROJECT_DIR$/app/parts/sidebar-menu.html" />
         <option value="$PROJECT_DIR$/app/parts/product-thumbnail.html" />
@@ -150,7 +219,6 @@
         <option value="$PROJECT_DIR$/app/styles/components/_modal.scss" />
         <option value="$PROJECT_DIR$/app/styles/components/home/_header.scss" />
         <option value="$PROJECT_DIR$/app/explore.html" />
-        <option value="$PROJECT_DIR$/app/artists.html" />
         <option value="$PROJECT_DIR$/app/styles/components/icons.scss" />
         <option value="$PROJECT_DIR$/app/parts/creation-thumbnail.html" />
         <option value="$PROJECT_DIR$/app/help.html" />
@@ -162,33 +230,35 @@
         <option value="$PROJECT_DIR$/app/styles/_mixins.scss" />
         <option value="$PROJECT_DIR$/app/styles/components/creator/_creator-popout.scss" />
         <option value="$PROJECT_DIR$/app/styles/components/creator/_creator-product.scss" />
-        <option value="$PROJECT_DIR$/app/styles/components/_dialog.scss" />
-        <option value="$PROJECT_DIR$/app/parts/header.html" />
         <option value="$PROJECT_DIR$/app/styles/components/_icons.scss" />
-        <option value="$PROJECT_DIR$/app/parts/modal-temp.html" />
-        <option value="$PROJECT_DIR$/app/styles/main.scss" />
         <option value="$PROJECT_DIR$/app/styles/components/_devices.scss" />
-        <option value="$PROJECT_DIR$/app/styles/components/_pages.scss" />
         <option value="$PROJECT_DIR$/app/v2.html" />
         <option value="$PROJECT_DIR$/app/creator.html" />
-        <option value="$PROJECT_DIR$/app/styles/components/_forms.scss" />
         <option value="$PROJECT_DIR$/app/styles/components/creation/_creation-actions.scss" />
-        <option value="$PROJECT_DIR$/app/scripts/main.js" />
         <option value="$PROJECT_DIR$/app/parts/modal.html" />
         <option value="$PROJECT_DIR$/app/creation.html" />
         <option value="$PROJECT_DIR$/app/parts/footer.html" />
-        <option value="$PROJECT_DIR$/app/brands.html" />
-        <option value="$PROJECT_DIR$/app/styles/components/pages/_brands.scss" />
         <option value="$PROJECT_DIR$/app/parts/nav.html" />
         <option value="$PROJECT_DIR$/app/styles/components/creator/_creator-toolbar.scss" />
         <option value="$PROJECT_DIR$/app/styles/components/_nav.scss" />
-        <option value="$PROJECT_DIR$/app/styles/_typo.scss" />
         <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/app/styles/components/_buttons.scss" />
         <option value="$PROJECT_DIR$/app/styles/components/creation/_creation-thumbnail.scss" />
-        <option value="$PROJECT_DIR$/app/styles/_variables.scss" />
-        <option value="$PROJECT_DIR$/app/styles/components/creator/_creator-actions.scss" />
         <option value="$PROJECT_DIR$/app/parts/creator-saveform.html" />
+        <option value="$PROJECT_DIR$/app/styles/main.scss" />
+        <option value="$PROJECT_DIR$/app/styles/components/_pages.scss" />
+        <option value="$PROJECT_DIR$/app/styles/components/_dialog.scss" />
+        <option value="$PROJECT_DIR$/app/styles/components/pages/_brands.scss" />
+        <option value="$PROJECT_DIR$/app/styles/_variables.scss" />
+        <option value="$PROJECT_DIR$/app/styles/components/_forms.scss" />
+        <option value="$PROJECT_DIR$/app/brands.html" />
+        <option value="$PROJECT_DIR$/app/parts/header.html" />
+        <option value="$PROJECT_DIR$/app/scripts/main.js" />
+        <option value="$PROJECT_DIR$/app/parts/modal-temp.html" />
+        <option value="$PROJECT_DIR$/app/styles/_typo.scss" />
+        <option value="$PROJECT_DIR$/app/styles/components/creator/_creator-actions.scss" />
+        <option value="$PROJECT_DIR$/app/styles/components/pages/_artists.scss" />
+        <option value="$PROJECT_DIR$/app/artists.html" />
       </list>
     </option>
   </component>
@@ -209,7 +279,7 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="825" />
+    <option name="height" value="827" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -236,279 +306,89 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="caseapp-v3" />
+              <option name="myItemId" value="caseapp-prototype" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="caseapp-v3" />
+              <option name="myItemId" value="caseapp-prototype" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="caseapp-v3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemId" value="caseapp-prototype" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="caseapp-v3" />
+              <option name="myItemId" value="caseapp-prototype" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="caseapp-v3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dist" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="caseapp-v3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="caseapp-v3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dist" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="styles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="caseapp-v3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="caseapp-v3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemId" value="caseapp-prototype" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="caseapp-v3" />
+              <option name="myItemId" value="caseapp-prototype" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="caseapp-v3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemId" value="caseapp-prototype" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="styles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="caseapp-v3" />
+              <option name="myItemId" value="caseapp-prototype" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="caseapp-v3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemId" value="caseapp-prototype" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="styles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="caseapp-v3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="caseapp-v3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="styles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="caseapp-v3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="caseapp-v3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="styles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="home" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="caseapp-v3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="caseapp-v3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="styles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="creator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="caseapp-v3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="caseapp-v3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="styles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="creation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="caseapp-v3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="caseapp-v3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="caseapp-v3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="caseapp-v3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="parts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="caseapp-v3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="caseapp-v3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$/dist" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.appearance" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="151" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
@@ -551,6 +431,7 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
       <node-options />
       <gulpfile />
       <tasks />
@@ -562,11 +443,14 @@
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
       <command value="run-script" />
       <scripts />
+      <node-interpreter value="project" />
       <envs />
       <method />
     </configuration>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -575,12 +459,18 @@
       <changelist id="c8d570ac-4642-43fd-a430-110e03806d74" name="Default" comment="" />
       <created>1446305754783</created>
       <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
       <updated>1446305754783</updated>
+      <workItem from="1461750907781" duration="1819000" />
+      <workItem from="1461843644963" duration="119000" />
     </task>
     <servers />
   </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1938000" />
+  </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="825" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="827" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -622,157 +512,140 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/bower.json">
+    <entry file="file://$PROJECT_DIR$/app/styles/components/_forms.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="54" column="6" selection-start-line="54" selection-start-column="6" selection-end-line="54" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/app/styles/components/pages/_brands.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="20" />
+        <state relative-caret-position="0">
+          <caret line="105" column="16" selection-start-line="105" selection-start-column="16" selection-end-line="105" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/components/creation/_creation-result.scss">
+    <entry file="file://$PROJECT_DIR$/app/styles/_typo.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4900568">
-          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+        <state relative-caret-position="0">
+          <caret line="82" column="21" selection-start-line="82" selection-start-column="21" selection-end-line="82" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="46" column="14" selection-start-line="46" selection-start-column="14" selection-end-line="46" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/parts/sidebar-menu.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="30" column="55" selection-start-line="30" selection-start-column="55" selection-end-line="30" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/artists.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gulpfile.babel.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="178" column="3" selection-start-line="178" selection-start-column="3" selection-end-line="178" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/explore.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.708333">
+        <state relative-caret-position="0">
           <caret line="23" column="10" selection-start-line="0" selection-start-column="0" selection-end-line="27" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/parts/creation-thumbnail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.625">
+        <state relative-caret-position="0">
           <caret line="9" column="64" selection-start-line="9" selection-start-column="64" selection-end-line="9" selection-end-column="64" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/help.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.083333">
+        <state relative-caret-position="0">
           <caret line="45" column="83" selection-start-line="45" selection-start-column="83" selection-end-line="45" selection-end-column="83" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/images/icon-claim.svg">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.12838802">
+        <state relative-caret-position="0">
           <caret line="6" column="50" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/images/icon-pattern.svg">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.12838802">
+        <state relative-caret-position="0">
           <caret line="6" column="49" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/images/icon-color.svg">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.12362637">
+        <state relative-caret-position="0">
           <caret line="6" column="49" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/styles/components/creator/_creator-product.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/components/_dialog.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5113636">
-          <caret line="30" column="10" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/parts/creator-toolbar.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.1292614">
+        <state relative-caret-position="0">
           <caret line="53" column="51" selection-start-line="53" selection-start-column="46" selection-end-line="53" selection-end-column="51" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/styles/components/creator/_creator-popout.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.042613637">
+        <state relative-caret-position="0">
           <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/styles/components/home/_header.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.06392045">
+        <state relative-caret-position="0">
           <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="4" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/styles/components/_creation.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.042613637">
+        <state relative-caret-position="0">
           <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/styles/components/_creator.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.042613637">
+        <state relative-caret-position="0">
           <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/styles/components/_icons.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/parts/modal-temp.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="13" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/dialog.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="89" column="13" selection-start-line="89" selection-start-column="13" selection-end-line="89" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -783,218 +656,228 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/styles/components/_devices.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/_brands.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.30208334">
+        <state relative-caret-position="0">
           <caret line="77" column="118" selection-start-line="77" selection-start-column="118" selection-end-line="77" selection-end-column="154" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/v2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="123" column="12" selection-start-line="0" selection-start-column="0" selection-end-line="279" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.041193184">
-          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/components/_pages.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.021306818">
-          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/styles/_mixins.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4900568">
+        <state relative-caret-position="0">
           <caret line="23" column="20" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/components/_forms.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.75">
-          <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/parts/modal.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.75">
-          <caret line="14" column="60" selection-start-line="14" selection-start-column="60" selection-end-line="14" selection-end-column="60" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/creator.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="100" column="76" selection-start-line="100" selection-start-column="68" selection-end-line="100" selection-end-column="76" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/creation.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="73" column="16" selection-start-line="73" selection-start-column="16" selection-end-line="73" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34511435">
-          <caret line="2" column="13215" selection-start-line="2" selection-start-column="13215" selection-end-line="2" selection-end-column="13215" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/brands.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/parts/footer.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/brands.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.80965906">
-          <caret line="46" column="66" selection-start-line="46" selection-start-column="66" selection-end-line="46" selection-end-column="66" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/parts/nav.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.625">
+        <state relative-caret-position="0">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/components/_buttons.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="44" column="18" selection-start-line="44" selection-start-column="18" selection-end-line="44" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/components/creator/_creator-toolbar.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/components/creation/_creation-thumbnail.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="39" column="21" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="28" column="92" selection-start-line="28" selection-start-column="92" selection-end-line="28" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/components/_nav.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="12" column="20" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/parts/creator-saveform.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/components/creation/_creation-actions.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/components/_dialog.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/parts/modal.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/dialog.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="89" column="13" selection-start-line="89" selection-start-column="13" selection-end-line="89" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4200">
+          <caret line="280" column="27" selection-start-line="280" selection-start-column="27" selection-end-line="280" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/parts/modal-temp.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/parts/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/components/_forms.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="526">
+          <caret line="54" column="6" selection-start-line="54" selection-start-column="6" selection-end-line="54" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/styles/components/pages/_brands.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.208333">
-          <caret line="121" column="2" selection-start-line="121" selection-start-column="2" selection-end-line="121" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/parts/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1278409">
-          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/components/_buttons.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.125">
-          <caret line="44" column="18" selection-start-line="44" selection-start-column="18" selection-end-line="44" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/components/creator/_creator-toolbar.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.0">
-          <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/components/creation/_creation-thumbnail.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44602272">
-          <caret line="39" column="21" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/components/creation/_creation-actions.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.5">
-          <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.5833335">
-          <caret line="28" column="92" selection-start-line="28" selection-start-column="92" selection-end-line="28" selection-end-column="92" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/_typo.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-19.375">
-          <caret line="82" column="21" selection-start-line="82" selection-start-column="21" selection-end-line="82" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/components/_nav.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.5">
-          <caret line="12" column="20" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="20" />
+        <state relative-caret-position="15">
+          <caret line="105" column="16" selection-start-line="105" selection-start-column="16" selection-end-line="105" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/styles/_variables.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.5">
-          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+        <state relative-caret-position="181">
+          <caret line="46" column="14" selection-start-line="46" selection-start-column="14" selection-end-line="46" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/styles/components/creator/_creator-actions.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-22.5">
-          <caret line="61" column="27" selection-start-line="61" selection-start-column="27" selection-end-line="61" selection-end-column="27" />
+        <state relative-caret-position="465">
+          <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/parts/creator-saveform.html">
+    <entry file="file://$PROJECT_DIR$/app/styles/_typo.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.10653409">
-          <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
+        <state relative-caret-position="585">
+          <caret line="39" column="1" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/brands.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1200">
+          <caret line="146" column="12" selection-start-line="108" selection-start-column="2" selection-end-line="146" selection-end-column="12" />
+          <folding>
+            <element signature="n#section#1;n#article#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/components/_pages.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="7" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/components/pages/_artists.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/artists.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="68" selection-start-line="24" selection-start-column="68" selection-end-line="24" selection-end-column="68" />
           <folding />
         </state>
       </provider>

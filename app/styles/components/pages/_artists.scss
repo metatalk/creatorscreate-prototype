@@ -1,0 +1,19 @@
+.page--artists {
+  .page__header {
+    text-align: center;
+    background: #FFF;
+    color: #222;
+    padding: 40px 10px 20px 10px;
+    @include media("≥desktop") {
+      padding: 80px 20px;
+    }
+    .lead {
+      max-width: 400px;
+      margin: 0 auto;
+    }
+  }
+}
+
+.artist-examples {
+  @include container();
+}

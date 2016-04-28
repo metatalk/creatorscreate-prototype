@@ -12,7 +12,7 @@
         <p class="lead">
           Start growing your fan base & improve brand perception.
         </p>
-        <a href="mailto:contact@creatorscreate.com" class="btn btn--white">Get in touch</a>
+        <a data-dialog="brand-signup" class="btn btn--white">Request a free demo</a>
       </div>
       <div class="page--brands__video">
         <div class="browser-mockup">
@@ -101,7 +101,7 @@
           <a href="mailto:contact@creatorscreate.com">Get in touch</a> to get a detailed quote for your campaign.
         </p>
         <p>
-          <a href="mailto:contact@creatorscreate.com" class="btn btn--white">Get in touch</a>
+          <a data-dialog="brand-signup" class="btn btn--white">Request demo & pricing options</a>
         </p>
       </div>
     </footer>
@@ -225,15 +225,45 @@
 
   <section class="page__block page__block--footer blue">
     <header class="section-header">
-      <h1>Get in touch for a demo and more info</h1>
-      <p class="lead">
-        Contact us on <a href="mailto:contact@creatorscreate.com">contact@creatorscreate.com</a> and we'll figure out how Creators Create can be valuable for your brand.
-      </p>
+      <h1>Find out how Creators Create can be valuable for your brand</h1>
+      <p>Get in touch for a free demo and specific information for your brand.</p>
+      <a data-dialog="brand-signup" class="btn btn--white">Get in touch</a>
     </header>
 
   </section>
 
 </article>
+
+<div id="brand-signup" class="dialog">
+  <div class="dialog__overlay"></div>
+  <div class="dialog__content">
+    <h2>Fill in your data and we'll be in touch!</h2>
+    <form class="form form--contact" method="POST" action="https://formspree.io/bert@metatalk.be">
+      <div class="form__element">
+        <label for="email">Your name</label>
+        <input class="input--block" type="text" name="name" id="name">
+      </div>
+      <div class="form__element">
+        <label for="email">Your email address</label>
+        <input class="input--block" type="email" name="email" id="email">
+      </div>
+      <div class="form__element">
+        <label for="email">Your company</label>
+        <input class="input--block" type="text" name="company" id="company">
+      </div>
+      <div class="form__element form__element--btn">
+        <button class="btn btn--primary">
+          Send
+        </button>
+      </div>
+      <p>
+        <small>Rather use email? Contact us on <a href="mailto:contact@creatorscreate.com">contact@creatorscreate.com</a>.</small>
+      </p>
+    </form>
+
+    <div><a class="dialog__close" data-dialog-close>×</a></div>
+  </div>
+</div>
 
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
